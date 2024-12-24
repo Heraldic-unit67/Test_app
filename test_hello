@@ -1,0 +1,9 @@
+from ty import hello
+
+def test_default():
+    assert hello()=="hello,world"
+
+def test_augment():
+    assert hello("diddler")=="hello,diddler"
+
+
